@@ -1,3 +1,5 @@
+DONE IN SQL WORKBENCH
+
 # Assignment4-DB
 
 <b>Excersise 1</b>
@@ -59,3 +61,23 @@ It is given all permission to all tables and DB's due to the fact that it is sup
 
 <CITE> CREATE USER 'IT';	
 GRANT ALL PRIVILEGES ON *.* TO IT;</CITE>
+
+<b> Excersise 2 </b>
+
+INSERT INTO classicmodels.employees
+VALUES (1, 'gurli', 'gris', 'vedik', 'sda@dsd.dk', 22, 33, 'chef');
+
+INSERT INTO classicmodels.employees
+VALUES (33, 'burli', 'bus', 'vedik', 'ssdasa@dsd.dk', 22, 33, 'ven');
+
+INSERT INTO classicmodels.products
+VALUES(23, 'Glaasses', 'Holdud', '10', 'friend', 'Good quality', true, 20000, 2.2);
+
+
+INSERT INTO classicmodels.orders
+VALUES (3, '2013-01-04 17:24:19', '2014-01-04 17:24:19', '2014-01-04 17:24:19', 
+'Arrived', 'No comment', '31');
+
+<b> Excersise 3 </b>
+Following statement is called to backup all DB's. (From CMD Prompt in the BIN file of SQL server)
+mysqldump.exe --all-databases
